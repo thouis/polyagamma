@@ -1,4 +1,5 @@
 from distutils.core import Extension
+import distutils.util
 import platform
 import os
 from os.path import join
