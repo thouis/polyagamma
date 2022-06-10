@@ -16,9 +16,9 @@ bin_arr=(
 # add  python to image's path
 export PATH=/opt/python/cp37-cp37m/bin/:$PATH
 # download install script
-curl -#sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py > get-poetry.py
+#curl -#sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py > get-poetry.py
 # install using local archive
-python get-poetry.py -y --file poetry-1.1.4-linux.tar.gz
+#python get-poetry.py -y --file poetry-1.1.4-linux.tar.gz
 
 
 function build_poetry_wheels
